@@ -29,5 +29,6 @@ public class Home {
             return "laver pølser";
 
         }
+        //Nu skal i bare se løjer!
 }
 
