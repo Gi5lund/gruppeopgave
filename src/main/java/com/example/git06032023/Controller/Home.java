@@ -8,7 +8,7 @@ public class Home {
 
     @GetMapping("/")
     public String index() {
-        return "Hello World";
+        return "Hello World, Der lugter lidt af ost";
         }
         public String getReal(){
         return "for realsies";
