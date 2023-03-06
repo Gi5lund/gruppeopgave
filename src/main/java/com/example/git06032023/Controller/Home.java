@@ -16,9 +16,17 @@ public class Home {
 
 
 
+
         @GetMapping
         public String hurra(){
             return "Hallooooo";
+        }
+
+
+
+        @GetMapping("/pølser")
+        public String toLayanEgg() {
+            return "laver pølser";
         }
 
 }
