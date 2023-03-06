@@ -24,9 +24,12 @@ public class Home {
             return "Hallooooo";
         }
 
+        @GetMapping("Its a Witch")
+        public String doesItQuack(){
+        return "walks like a duck";
+        }
 
-
-
+        @GetMapping("Auxilio")
         public String help()
            {
               return "helping.....";
