@@ -13,5 +13,15 @@ public class Home {
         public String getReal(){
         return "for realsies";
         }
+
+
+
+        @GetMapping
+        public String hurra(){
+            return "Hallooooo";
+        }
+
 }
+
+
 
