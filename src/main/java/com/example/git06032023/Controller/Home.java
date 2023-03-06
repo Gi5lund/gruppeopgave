@@ -10,8 +10,16 @@ public class Home {
     public String index() {
         return "Hello World, Der lugter lidt af ost";
         }
+        @GetMapping("real")
         public String getReal(){
         return "for realsies";
+        }
+
+
+
+
+        public String help(){
+        return "helping.....";
         }
 }
 
