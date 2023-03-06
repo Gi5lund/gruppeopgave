@@ -47,7 +47,7 @@ public class Home {
 
         @GetMapping("/hejhej")
         public String toFork() {
-            return "Fork Fork";
+            return "Fork Fork FOOOOOOOOOOOOORK";
     }
 }
 // bla bæa akdflaføæafk
