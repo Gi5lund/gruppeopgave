@@ -13,5 +13,13 @@ public class Home {
         public String getReal(){
         return "for realsies";
         }
+
+
+
+
+        @GetMapping("/pølser")
+        public String toLayanEgg() {
+            return "laver pølser";
+        }
 }
 
