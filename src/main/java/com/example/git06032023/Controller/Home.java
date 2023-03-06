@@ -10,9 +10,11 @@ public class Home {
     public String index() {
         return "Hello World, Der lugter lidt af ost, kom nu Morten";
         }
+        @GetMapping("real")
         public String getReal(){
         return "for realsies";
         }
+
 
 
 
@@ -24,9 +26,17 @@ public class Home {
 
 
 
+
+        public String help()
+           {
+              return "helping.....";
+           }
+
+
         @GetMapping("/pølser")
         public String toLayanEgg() {
             return "laver pølser";
+
         }
 
 }
