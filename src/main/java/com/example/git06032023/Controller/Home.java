@@ -44,6 +44,11 @@ public class Home {
         }
 
         //Nu skal i bare se løjer!
+
+        @GetMapping("/hejhej")
+        public String toFork() {
+            return "Fork Fork";
+    }
 }
 
 
