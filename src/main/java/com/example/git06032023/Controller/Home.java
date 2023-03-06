@@ -10,4 +10,8 @@ public class Home {
     public String index() {
         return "Hello World, Der lugter lidt af ost, kom nu Morten";
         }
+        public String getReal(){
+        return "for realsies";
+        }
 }
+
