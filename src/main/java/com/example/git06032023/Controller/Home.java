@@ -28,6 +28,7 @@ public class Home {
         public String doesItQuack(){
         return "walks like a duck";
         }
+    // Jeg tror måske det virker ellers bliver jeg sur!!!!!
 
         @GetMapping("Auxilio")
         public String help()
