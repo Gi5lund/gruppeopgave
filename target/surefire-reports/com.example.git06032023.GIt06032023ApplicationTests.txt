@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.git06032023.GIt06032023ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.198 s - in com.example.git06032023.GIt06032023ApplicationTests
